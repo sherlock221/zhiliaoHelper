@@ -1,0 +1,910 @@
+/**采用rem 响应式设计 **/
+
+
+
+
+body, html{
+
+    width: auto;
+
+    height: auto;
+
+}
+
+
+
+html{
+
+/*10 ÷ 16 × 100% = 62.5%*/
+
+font-size:62.5%;
+
+}
+
+
+
+body{
+
+font-size : 1.4rem;
+
+}
+
+
+
+
+
+.share{
+
+    background: #ffffff;
+
+    margin-bottom: -1.7rem;
+
+}
+
+
+
+.share .all-img{
+
+    background-image: url("../../img/share/share-all.png");
+
+    background-size: 20rem 25rem;
+
+    background-repeat: no-repeat;
+
+}
+
+.all-img{
+
+    background-image: url("../../img/share/share-all.png");
+
+    background-size: 20rem 25rem;
+
+    background-repeat: no-repeat;
+
+}
+
+
+
+.share .info-img{
+
+    background-image: url("../../img/share/share-info.png");
+
+    background-size: 100% 100%;
+
+    width: 20.15rem;
+
+    height: 21.55rem;
+
+}
+
+
+
+
+
+
+
+
+
+.pd-lr-10{
+
+    padding: 0 1rem;
+
+}
+
+
+
+.mb15{
+
+    margin-bottom: 1.3rem;
+
+}
+
+.bg-info{
+
+    background: #f3985b;
+
+}
+
+
+
+
+
+
+
+.mask{
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    right:0;
+
+    bottom:0;
+
+
+
+    width: 100%;
+
+    height: 100%;
+
+    background: #000000;
+
+    filter: alpha(opacity=40);
+
+    opacity: 0.4;
+
+    z-index: 998;
+
+    display: none;
+
+}
+
+
+
+
+
+
+
+/** animate **/
+
+.cicada-logo{
+
+    -webkit-animation : rubberBand 1s ease 1.1s both;
+
+    animation :  rubberBand 1s ease 1.1s both;
+
+}
+
+
+
+.cicada-text-02{
+
+    -webkit-animation : fadeInDown 0.5s ease 0.5s both;
+
+    animation : fadeInDown 0.5s ease 0.5s both;
+
+}
+
+
+
+.header-top{
+
+    display: none;
+
+}
+
+#left-nav{
+
+    display: none;
+
+}
+
+
+
+.toplayer{
+
+    position: fixed;
+
+    right: 1.4rem;
+
+    top: 1.6rem;
+
+
+
+    padding: 1rem 1.3rem;
+
+    text-align: center;
+
+    background: #ffffff;
+
+    color: #4869a6;
+
+    font-size: 1.2rem;
+
+    z-index: 999;
+
+    border-radius: 3rem;
+
+    display: none;
+
+
+
+}
+
+/** 弹出窗体 **/
+
+.alert{
+
+    padding: 3.5rem 5.8rem;
+
+    background: #ffffff;
+
+    position: fixed;
+
+    top: 50%;
+
+    left: 50%;
+
+
+
+    margin-top: -10.6rem;
+
+    margin-left: -13.7rem;
+
+
+
+    z-index: 999;
+
+    display: none;
+
+}
+
+.alert-default{
+
+    border-radius: 0.4rem;
+
+    border: 0.3rem solid #8c8c8c;
+
+}
+
+
+
+.alert .title{
+
+    font-size: 1.8rem;
+
+    font-weight: normal;
+
+}
+
+
+
+.alert .alertCode{
+
+    font-size: 2.1rem;
+
+}
+
+
+
+.btn{
+
+    margin: 0;
+
+    padding: 0;
+
+    border: 0;
+
+    background: transparent;
+
+
+
+    padding: 0.7rem 3.1rem;
+
+    text-align: center;
+
+    font-size: 1.3rem;
+
+    border-radius: 0.4rem;
+
+}
+
+
+
+.btn-small{
+
+    padding: 0.5rem 2rem;
+
+}
+
+
+
+.btn-big{
+
+    padding: 0.7rem 5.2rem;
+
+}
+
+
+
+.btn.btn-default{
+
+    border: 0.1rem solid #f3985b;
+
+    color: #f3985b;
+
+    background: #ffffff;
+
+}
+
+
+
+.btn.btn-default:hover, .btn.btn-default:active{
+
+    border: 0.1rem solid #d67e3e;
+
+    color: #ffffff;
+
+    background: #d67e3e;
+
+}
+
+
+
+
+
+.btn.btn-default.inverse{
+
+    border: 0.1rem solid #f3985b;
+
+    color: #ffffff;
+
+    background: #f3985b;
+
+}
+
+
+
+.btn.btn-default.inverse:hover, .btn.btn-default.inverse:active{
+
+    border:  0.1rem  solid #d67e3e;
+
+    color: #ffffff;
+
+    background: #d67e3e;
+
+}
+
+
+
+
+
+
+
+.cicada-logo-pos{
+
+    padding-top: 4.9rem;
+
+    padding-bottom: 3.6rem;
+
+}
+
+
+
+
+
+.cicada-text-pos{
+
+    margin-bottom: 2.4rem;
+
+}
+
+
+
+.ovh{
+
+    overflow: hidden;
+
+}
+
+
+
+.font-og{
+
+    color: #f3985b;
+
+}
+
+.font-black{
+
+    color: #000000;
+
+}
+
+.font-gray{
+
+    color: #474747;
+
+}
+
+.font-gray-02{
+
+    color: #898989;
+
+}
+
+.f14{
+
+    font-size: 1.4rem;
+
+}
+
+.f12{
+
+    font-size: 1.2rem;
+
+}
+
+.f16{
+
+    font-size: 1.6rem;
+
+}
+
+
+
+.cicada-text-title{
+
+    font-size: 2.6rem;
+
+}
+
+
+
+.cicada-text-content{
+
+    font-size: 1.6rem;
+
+
+
+}
+
+.info-img-pos{
+
+    margin: 2.5rem 0;
+
+}
+
+
+
+#copyCode{
+
+    margin-left: 1.8rem;
+
+}
+
+
+
+.copy-layer{
+
+    margin-bottom: 1.5rem;
+
+    margin-top: 0.5rem;
+
+}
+
+
+
+
+
+.cicada-head{
+
+    border-radius: 6rem;
+
+    width: 2rem;
+
+    height: 2rem;
+
+    overflow: hidden;
+
+    position: relative;
+
+    margin-right: 0.4rem;
+
+}
+
+
+
+.cicada-head img{
+
+  border-radius: 6rem;
+
+}
+
+
+
+.class-code{
+
+    font-size: 3.1rem;
+
+    line-height: 3.1rem;
+
+}
+
+
+
+.cicada-class-people h5{
+
+    font-weight: normal;
+
+}
+
+
+
+.cicada-class-people .cicada-class-hd{
+
+    margin-top: 1.2rem;
+
+    margin-bottom: 0.6rem;
+
+}
+
+
+
+.middle-cicda{
+
+    padding: 0 1rem 0 1.8rem;
+
+    margin-top: 2.2rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** 图片 **/
+
+.cicada-logo{
+
+    background-position:  0 0;
+
+    width: 7.8rem;
+
+    height: 7.7rem;
+
+}
+
+
+
+.cicada-logo-small{
+
+    background-position:  0 -13.15rem;
+
+    width: 3rem;
+
+    height: 2.85rem;
+
+}
+
+
+
+.cicada-android{
+
+    background-position: 0 -7.7rem;
+
+    width: 1.5rem;
+
+    height: 1.75rem;
+
+    cursor: pointer;
+
+}
+
+.cicada-android:active,.cicada-android:hover{
+
+    background-position: -1.5rem -7.7rem;
+
+}
+
+
+
+
+
+.cicada-ios{
+
+    background-position: 0 -9.45rem;
+
+    width: 1.5rem;
+
+    height: 2rem;
+
+    cursor: pointer;
+
+}
+
+
+
+.cicada-ios:active,.cicada-ios:hover{
+
+    background-position: -1.5rem -9.45rem;
+
+}
+.left-nav-bt{
+	margin-top: 12.2rem;
+}
+
+
+
+.cicada-arrow{
+
+    background-position: 0 -11.45rem;
+
+    width: 1.5rem;
+
+    height: 1.7rem;
+
+    margin-right: 0.3rem;
+
+}
+
+
+
+
+
+/** pc 下 显示 **/
+
+@media screen and (min-width: 1024px) {
+
+
+html{
+
+font-size:93.75%;
+
+}
+
+
+    html,body{
+
+        background: #e8ebec;
+
+    }
+
+    .header-top{
+        height: 6.1rem;
+        width: 100%;
+        display: block;
+    }
+
+    .dowload_btn{
+
+        background-image: url("../../img/share/dowload_btn.png");
+
+        background-size: 100% 100%;
+
+        width: 10.8rem;
+
+        height: 3.2rem;
+
+
+
+        border: 0;
+
+        margin: 0;
+
+        padding: 0;
+
+    }
+
+
+
+    .w1000{
+
+        width: 50rem;
+
+    }
+
+    .cicada-logo-text{
+
+        font-size: 2.5rem;
+
+        position: relative;
+
+        top: 1.8rem;
+
+        left: 0.5rem;
+
+    }
+
+    .cicada-logo-small-pos{
+
+        position: relative;
+
+        top: 1.1rem;
+
+    }
+
+
+
+    #list{
+
+        width: 65%;
+
+        float: left;
+
+    }
+
+    #base{
+
+        width: 50rem;
+
+        margin: 0 auto;
+
+    }
+
+    #left-nav{
+
+        width: 35%;
+
+        float: left;
+
+        display: block;
+
+    }
+
+    .dowload_icon{
+
+        margin-top: 1.6rem;
+
+        margin-bottom: 1.6rem;
+
+    }
+
+
+
+    #addClass{
+
+        display: none;
+
+    }
+
+    .code{
+
+        background-image: url("../../img/share/zhiliao-android-code.png");
+
+        background-size: 100% 100%;
+
+        width: 7.1rem;
+
+        height: 7.1rem;
+
+
+
+        border: 0.5rem solid #ed9b57;
+
+    }
+
+}
+
+
+.ios{
+        background-image: url("../../img/share/ios.png");
+}
+
+.android{
+    background-image: url("../../img/share/android.png");
+}
+
+
+
+/** cat **/
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0,-100%,0);
+        transform: translate3d(0,-100%,0)
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0)
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0,-100%,0);
+        -ms-transform: translate3d(0,-100%,0);
+        transform: translate3d(0,-100%,0)
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translate3d(0,0,0);
+        -ms-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0)
+    }
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown
+}
+
+@-webkit-keyframes rubberBand {
+    0% {
+        -webkit-transform: scale3d(1,1,1);
+        transform: scale3d(1,1,1)
+    }
+
+    30% {
+        -webkit-transform: scale3d(1.25,.75,1);
+        transform: scale3d(1.25,.75,1)
+    }
+
+    40% {
+        -webkit-transform: scale3d(0.75,1.25,1);
+        transform: scale3d(0.75,1.25,1)
+    }
+
+    50% {
+        -webkit-transform: scale3d(1.15,.85,1);
+        transform: scale3d(1.15,.85,1)
+    }
+
+    65% {
+        -webkit-transform: scale3d(.95,1.05,1);
+        transform: scale3d(.95,1.05,1)
+    }
+
+    75% {
+        -webkit-transform: scale3d(1.05,.95,1);
+        transform: scale3d(1.05,.95,1)
+    }
+
+    100% {
+        -webkit-transform: scale3d(1,1,1);
+        transform: scale3d(1,1,1)
+    }
+}
+
+@keyframes rubberBand {
+    0% {
+        -webkit-transform: scale3d(1,1,1);
+        -ms-transform: scale3d(1,1,1);
+        transform: scale3d(1,1,1)
+    }
+
+    30% {
+        -webkit-transform: scale3d(1.25,.75,1);
+        -ms-transform: scale3d(1.25,.75,1);
+        transform: scale3d(1.25,.75,1)
+    }
+
+    40% {
+        -webkit-transform: scale3d(0.75,1.25,1);
+        -ms-transform: scale3d(0.75,1.25,1);
+        transform: scale3d(0.75,1.25,1)
+    }
+
+    50% {
+        -webkit-transform: scale3d(1.15,.85,1);
+        -ms-transform: scale3d(1.15,.85,1);
+        transform: scale3d(1.15,.85,1)
+    }
+
+    65% {
+        -webkit-transform: scale3d(.95,1.05,1);
+        -ms-transform: scale3d(.95,1.05,1);
+        transform: scale3d(.95,1.05,1)
+    }
+
+    75% {
+        -webkit-transform: scale3d(1.05,.95,1);
+        -ms-transform: scale3d(1.05,.95,1);
+        transform: scale3d(1.05,.95,1)
+    }
+
+    100% {
+        -webkit-transform: scale3d(1,1,1);
+        -ms-transform: scale3d(1,1,1);
+        transform: scale3d(1,1,1)
+    }
+}
+
+.rubberBand {
+    -webkit-animation-name: rubberBand;
+    animation-name: rubberBand
+}

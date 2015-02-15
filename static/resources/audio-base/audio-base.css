@@ -1,0 +1,55 @@
+.u-globalAudio {
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    bottom: 28px;
+    display: inline-block;
+    z-index: 9999;
+    right: 26px;
+}
+
+.u-globalAudio .icon-music {
+    width: 27px;
+    height: 27px;
+    background: url(img/units-icons.png);
+    background-size: 74px 28px;
+    display: block;
+}
+
+.u-globalAudio span {
+    font-size: 12px;
+    position: absolute;
+    left: -33px;
+    top: 10px;
+    text-shadow: 1px 1px 1px #000;
+    letter-spacing: 2px;
+    -webkit-transition: all .2s linear;
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+}
+
+.u-globalAudio .coffee-steam-box {
+    -webkit-transform: translate(-40px,-40px);
+}
+.u-globalAudio span.z-show {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+}
+
+.u-globalAudio.z-play .icon-music {
+    -webkit-animation: reverseRotataZ 1.2s linear infinite;
+}
+
+
+/** 动画部分  **/
+@-webkit-keyframes reverseRotataZ {
+    0% {
+        -webkit-transform: rotateZ(0deg);
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotateZ(-360deg);
+        transform: rotateZ(-360deg);
+    }
+}

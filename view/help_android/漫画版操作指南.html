@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh_cn">
+    <!-- 基本配置信息 -->
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+
+    <!-- seo 优化部分 -->
+    <meta name="title" content="分享h5 班级码"/>
+    <meta name="keywords" content="分享h5 班级码"/>
+    <meta name="author" content="sherlock"/>
+    <meta name="Description" content="分享h5 班级码"/>
+
+
+
+    <!-- h5 页面基准 -->
+    <link rel="stylesheet" type="text/css" href="../../static/resources/base/h5_light.min.css" />
+
+    <!-- 业务 -->
+    <link rel="stylesheet" type="text/css" href="../../static/service/help/help.css" />
+
+
+    <title>知了·帮助·漫画指南</title>
+
+    <style type="text/css">
+
+
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+
+        .bg-man{
+            background-size: cover;
+            width: 100%;
+
+        }
+
+        .bg-man-01{
+            background-image: url("../../static/img/help/man/1.jpg");
+        }
+
+        .bg-man-02{
+            background-image: url("../../static/img/help/man/2.jpg");
+        }
+
+        .bg-man-03{
+            background-image: url("../../static/img/help/man/3.jpg");
+        }
+
+    </style>
+</head>
+<body style="background: #ffffff;">
+
+
+
+
+    <span class="ib bg-man-01 bg-man"></span>
+    <span class="ib bg-man-02 bg-man"></span>
+    <span class="ib bg-man-03 bg-man"></span>
+
+
+
+    <script type="text/javascript">
+
+        var w = document.body.clientWidth;
+        var scale = 640/823;
+        var h =  w / scale;
+
+        var array = document.querySelectorAll(".bg-man");
+        for(var i=0;i<array.length;i++){
+            var ab = array[i];
+            ab.style.height = h+"px";
+        }
+    </script>
+
+
+
+
+
+</body>
+</html>

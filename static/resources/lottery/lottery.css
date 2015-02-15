@@ -1,0 +1,17 @@
+.lottery-node{
+    -webkit-transition: opacity 1s;
+    transition: opacity  1s;
+
+    -webkit-transition-property : visibility,opacity;
+    transition-property : visibility,opacity;
+
+    opacity: 1;
+    visibility : visible;
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 6;
+}

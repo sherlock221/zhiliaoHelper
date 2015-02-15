@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh_cn">
+    <!-- 基本配置信息 -->
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+
+    <!-- seo 优化部分 -->
+    <meta name="title" content="分享h5 班级码"/>
+    <meta name="keywords" content="分享h5 班级码"/>
+    <meta name="author" content="sherlock"/>
+    <meta name="Description" content="分享h5 班级码"/>
+
+
+    <!-- 检测help -->
+    <script type="text/javascript">
+
+
+
+    </script>
+
+    <script type="text/javascript" src="view/help_ios/help-data-ios.js"></script>
+
+    <!-- h5 页面基准 -->
+    <link rel="stylesheet" type="text/css" href="static/resources/base/h5_light.min.css" />
+
+    <!-- 业务 -->
+    <link rel="stylesheet" type="text/css" href="static/service/help/help.css?v=100" />
+
+
+    <!-- seajs -->
+    <script type="text/javascript" src="static/other/sea/2.3.0/dist/sea.js"></script>
+    <script type="text/javascript" src="static/seajs_config.js"></script>
+
+
+
+
+    <title>知了·帮助</title>
+</head>
+<body>
+
+
+
+            <section class="help-content">
+
+
+                <nav class="nav-toggle">
+
+                    <a class="c6" href="./view/help_ios/漫画版操作指南.html" >
+                       <span class="ib">漫画操作指南</span>
+                    </a>
+                    <a class="c6 active" href="" >
+                      <span class="ib ">常见问题帮助</span>
+                    </a>
+
+                </nav>
+
+
+                <ul id="catalog" class="catalog">
+
+
+                </ul>
+            </section>
+
+
+
+
+<script type="text/html" id="catalogTemplate">
+
+    <@ for (i=0;i<list.length;i++) { @>
+                <li>
+                    <a  href="<@=list[i].questionUrl  @>">
+                          <@=list[i].questionName @>
+                    </a>
+                </li>
+    <@ } @>
+
+
+</script>
+
+<script type="text/javascript">
+            seajs.use("service/help/help");
+</script>
+
+</body>
+</html>

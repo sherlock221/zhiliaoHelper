@@ -1,0 +1,20 @@
+.slider-main{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin: 30px auto;
+}
+
+.slider-list{
+    width: 900px;
+    height: 200px;
+    position: relative;
+}
+.slider-list > li{
+
+}
+.slider-list > li>img{
+    width: 100%;
+    height: auto;
+}

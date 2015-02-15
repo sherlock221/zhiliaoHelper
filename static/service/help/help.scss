@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+
+////导入方法
+//@import "../base/fun";
+
+//纯px
+@function rem($px){
+  @return  $px / 2 ;
+}
+
+
+html{
+
+
+  width: 100%;
+  height: auto;
+
+  background: #f6f6f6;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+.sub-content{
+  padding:  rem(28px) rem(32px);
+  color: #727272;
+  font-size: rem(30px);
+
+  line-height: 24px;
+
+}
+
+
+div {
+  img{
+
+    margin-top: 25px;
+  }
+
+}
+
+.help-content{
+
+    padding: rem(23px) 0 ;
+
+
+   .nav-toggle{
+      padding: rem(20px) rem(17px);
+      width: 100%;
+      clear: both;
+     overflow: hidden;
+
+
+      a{
+        padding-left: rem(5px);
+        padding-right: rem(5px);
+        cursor: pointer;
+
+        span{
+          height: rem(75px);
+          text-align: center;
+          line-height: rem(75px);
+          color: #ffffff;
+
+          font-size: rem(26px);
+          background: #415f9d;
+          border-radius: 5px;
+          width: 100%;
+
+
+
+        }
+
+        &.active span{
+          background: #293e6a;
+        }
+
+
+
+      }
+
+   }
+
+}
+
+
+.c1, .c2, .c3, .c4, .c5, .c6{
+    float: left;
+}
+
+.c6{
+  width: 50%;
+}
+
+
+/** 列表样式 **/
+.catalog{
+
+
+  li{
+    border-top: 1px solid #c6cbce;
+
+    a{
+      display: block;
+      padding: rem(30px) rem(31px);
+      font-size: rem(30px);
+      color: #000;
+
+    }
+
+    &:last-child{
+      border-bottom: 1px solid #c6cbce;
+    }
+  }
+
+
+
+}

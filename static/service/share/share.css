@@ -1,0 +1,420 @@
+body, html{
+    width: auto;
+    height: auto;
+}
+
+.share{
+    background: #ffffff;
+    margin-bottom: -17px;
+}
+
+.share .all-img{
+    background-image: url("../../img/share/share-all.png");
+    background-size: 200px 250px;
+    background-repeat: no-repeat;
+}
+.all-img{
+    background-image: url("../../img/share/share-all.png");
+    background-size: 200px 250px;
+    background-repeat: no-repeat;
+}
+
+.share .info-img{
+    background-image: url("../../img/share/share-info.png");
+    background-size: 100% 100%;
+    
+    width: 201.5px;
+    height: 215.5px;
+    
+    width : 403px \9;
+    height: 431px \9;
+}
+
+
+
+
+.pd-lr-10{
+    padding: 0 10px;
+}
+
+.mb15{
+    margin-bottom: 13px;
+}
+.bg-info{
+    background: #f3985b;
+}
+
+
+
+.mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom:0;
+
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    filter: alpha(opacity=40);
+    opacity: 0.4;
+    z-index: 998;
+    display: none;
+}
+
+
+
+/** animate **/
+.cicada-logo{
+    -webkit-animation : rubberBand 1s ease 1.1s 1 both;
+    animation :rubberBand 1s ease 1.1s 1 both;
+}
+
+.cicada-text-02{
+    -webkit-animation : fadeInDown 0.5s ease 0.5s 1  both;
+    animation : fadeInDown 0.5s ease 0.5s 1  both;
+}
+
+.header-top{
+    display: none;
+}
+#left-nav{
+    display: none;
+}
+
+.toplayer{
+    position: fixed;
+    right: 14px;
+    top: 16px;
+
+    padding: 10px 13px;
+    text-align: center;
+    background: #ffffff;
+    color: #4869a6;
+    font-size: 12px;
+    z-index: 999;
+    border-radius: 30px;
+    display: none;
+
+}
+/** 弹出窗体 **/
+.alert{
+    padding: 35px 58px;
+    background: #ffffff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    margin-top: -106px;
+    margin-left: -137px;
+
+    z-index: 999;
+    display: none;
+}
+.alert-default{
+    border-radius: 4px;
+    border: 3px solid #8c8c8c;
+}
+
+.alert .title{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.alert .alertCode{
+    font-size: 21px;
+}
+
+.btn{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+
+
+    padding: 7px 31px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+
+.btn-small{
+    padding: 5px 20px;
+}
+
+.btn-big{
+    padding: 7px 52px;
+}
+
+.btn.btn-default{
+    border: 1px solid #f3985b;
+    color: #f3985b;
+    background: #ffffff;
+
+}
+
+.btn.btn-default:hover, .btn.btn-default:active{
+    border: 1px solid #d67e3e;
+    color: #ffffff;
+    background: #d67e3e;
+}
+
+
+.btn.btn-default.inverse{
+    border: 1px solid #f3985b;
+    color: #ffffff;
+    background: #f3985b;
+}
+
+.btn.btn-default.inverse:hover, .btn.btn-default.inverse:active{
+    border: 1px solid #d67e3e;
+    color: #ffffff;
+    background: #d67e3e;
+}
+
+
+
+.cicada-logo-pos{
+    padding-top: 49px;
+    padding-bottom: 36px;
+}
+
+
+.cicada-text-pos{
+    margin-bottom: 24px;
+}
+
+.ovh{
+    overflow: hidden;
+}
+
+.font-og{
+    color: #f3985b;
+}
+.font-black{
+    color: #000000;
+}
+.font-gray{
+    color: #474747;
+}
+.font-gray-02{
+    color: #898989;
+}
+.f14{
+    font-size: 14px;
+}
+.f12{
+    font-size: 12px;
+}
+.f16{
+    font-size: 16px;
+}
+
+.cicada-text-title{
+    font-size: 26px;
+}
+
+.cicada-text-content{
+    font-size: 16px;
+
+}
+.info-img-pos{
+    margin: 25px 0;
+}
+
+#copyCode{
+    margin-left: 18px;
+}
+
+.copy-layer{
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+
+.cicada-head{
+    border-radius: 60px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    position: relative;
+    margin-right: 4px;
+}
+
+.cicada-head img{
+	  border-radius: 60px;
+}
+
+.class-code{
+    font-size: 31px;
+    line-height: 31px;
+}
+
+.cicada-class-people h5{
+    font-weight: normal;
+}
+
+.cicada-class-people .cicada-class-hd{
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+.middle-cicda{
+    padding: 0 10px 0 18px;
+    margin-top: 22px;
+}
+
+
+.ios{
+    background-image: url("../../img/share/ios.png");
+}
+
+.android{
+    background-image: url("../../img/share/android.png");
+}
+
+
+
+/** 图片 **/
+.cicada-logo{
+    background-position:  0 0;
+    
+    width: 78px;
+    width: 156px \9;
+    height: 77px;
+    height: 154px \9;
+}
+
+.cicada-logo-small{
+    background-position:  0 -131.5px;
+    background-position:  0 -263px \9;
+    
+    width: 30px;
+    height: 28.5px;
+    width : 60px \9;
+    height : 57px \9;
+}
+
+.cicada-android{
+    background-position: 0 -77px;
+    background-position: 0 -154px \9;
+    
+    width: 15px;
+    width : 30px \9;
+    height: 17.5px;
+    height : 35.04px \9;
+    cursor: pointer;
+}
+.cicada-android:active,.cicada-android:hover{
+    background-position: -15px -77px;
+    background-position: -30px -154px \9;
+}
+
+
+.left-nav-bt{
+	margin-top: 244px \9;
+}
+
+
+.cicada-ios{
+    background-position: 0 -94.5px;
+    background-position: 0 -189px \9;
+     
+    width: 15px;
+    width: 30px \9;
+    height: 20px;
+    height: 40px \9;
+    cursor: pointer;
+}
+
+.cicada-ios:active,.cicada-ios:hover{
+    background-position: -15px -94.5px;
+    background-position: -30px -189px \9;
+}
+
+.cicada-arrow{
+    background-position: 0 -114.5px;
+    background-position: 0 -229px \9;
+    
+    
+    width: 15px;
+    widht: 30px \9;
+    height: 17px;
+    margin-right: 3px;
+}
+
+
+/** pc 下 显示 **/
+@media screen and (min-width: 1024px) {
+
+    html,body{
+        background: #e8ebec;
+    }
+    .header-top{
+        height: 61px;
+        width: 100%;
+        display: block;
+
+    }
+    .dowload_btn{
+        background-image: url("../../img/share/dowload_btn.png");
+        background-size: 100% 100%;
+        width: 108px;
+        width: 216px \9;
+        height: 32px;
+        height: 64px \9;
+
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .w1000{
+        width: 500px;
+        width : 1000px \9;
+    }
+    .cicada-logo-text{
+        font-size: 25px;
+        position: relative;
+        top: 18px;
+        left: 5px;
+    }
+    .cicada-logo-small-pos{
+        position: relative;
+        top: 11px;
+    }
+
+    #list{
+        width: 65%;
+        float: left;
+    }
+    #base{
+        width: 500px;
+         width : 1000px \9;
+        margin: 0 auto;
+    }
+    #left-nav{
+        width: 35%;
+        float: left;
+        display: block;
+    }
+    .dowload_icon{
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    #addClass{
+        display: none;
+    }
+    .code{
+        background-image: url("../../img/share/zhiliao-android-code.png");
+        background-size: 100% 100%;
+        width: 71px;
+        height: 71px;
+		
+		 width : 142px \9;
+        height : 142px \9; 
+        border: 5px solid #ed9b57;
+    }
+}

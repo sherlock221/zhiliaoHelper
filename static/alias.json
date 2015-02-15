@@ -1,0 +1,24 @@
+{
+
+    "spm": {
+        "include": "all",
+        "alias" : {
+            "$": "modules/core/jquery/1.9.1/jquery.js",
+            "tmp": "modules/template/artTemplate/template-native.js",
+            "_": "modules/util/underscore/1.6.0/underscore-min.js",
+            "bootstrap3": "modules/core/bootstrap3/bootstrap.js",
+            "lock": "modules/util/lock/lock.js",
+            "audio_base": "modules/media/audio/audio-base/audio-base.js",
+            "coffee": "modules/core/zepto/zepto_coffee.js",
+            "jd_scroll": "modules/scroll/jd/jd_scroll.js",
+            "loop_world": "modules/ui/loop_world/loopWorld.js",
+            "down-anything": "modules/ui/down-anything/down-anything.js",
+            "lottery": "modules/ui/lottery/lottery.js",
+            "anFrame": "modules/util/aniamtionFrame/requestAnimationFrame.js",
+            "textani": "modules/ui/text/jquery.textillate.js",
+            "infline" : "modules/scroll/load/jquery.infinitescroll.js",
+            "scrollup" : "modules/util/top/jquery.scrollUp.js",
+            "headroom" : "modules/util/top/headroom.js"
+        }
+    }
+}

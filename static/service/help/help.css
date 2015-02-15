@@ -1,0 +1,61 @@
+@charset "UTF-8";
+html {
+  width: 100%;
+  height: auto;
+  background: #f6f6f6; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.sub-content {
+  padding: 14px 16px;
+  color: #727272;
+  font-size: 15px;
+  line-height: 24px; }
+
+div img {
+  margin-top: 25px; }
+
+.help-content {
+  padding: 11.5px 0; }
+  .help-content .nav-toggle {
+    padding: 10px 8.5px;
+    width: 100%;
+    clear: both;
+    overflow: hidden; }
+    .help-content .nav-toggle a {
+      padding-left: 2.5px;
+      padding-right: 2.5px;
+      cursor: pointer; }
+      .help-content .nav-toggle a span {
+        height: 37.5px;
+        text-align: center;
+        line-height: 37.5px;
+        color: #ffffff;
+        font-size: 13px;
+        background: #415f9d;
+        border-radius: 5px;
+        width: 100%; }
+      .help-content .nav-toggle a.active span {
+        background: #293e6a; }
+
+.c1, .c2, .c3, .c4, .c5, .c6 {
+  float: left; }
+
+.c6 {
+  width: 50%; }
+
+/** 列表样式 **/
+.catalog li {
+  border-top: 1px solid #c6cbce; }
+  .catalog li a {
+    display: block;
+    padding: 15px 15.5px;
+    font-size: 15px;
+    color: #000; }
+  .catalog li:last-child {
+    border-bottom: 1px solid #c6cbce; }
+
+/*# sourceMappingURL=help.css.map */
