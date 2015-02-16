@@ -17,6 +17,25 @@
     <meta name="Description" content="分享h5 班级码"/>
 
 
+    <script type="text/javascript">
+        var isMobile = {
+            Android: function() {
+                return navigator.userAgent.match(/Android/i) ? true : false;
+            },
+            iOS: function() {
+                return navigator.userAgent.match(/iPhone|iPad|iPod/i) ? true : false;
+            }
+        };
+
+        if(isMobile.iOS()){
+            window.location.href="help-ios.html";
+        }
+        else{
+            window.location.href="help-android.html";
+        }
+
+
+    </script>
 
 
 
